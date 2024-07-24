@@ -1,0 +1,85 @@
+.item1{
+    grid-area: myHead;
+
+}
+.item2{
+    grid-area:myBar;   
+}
+.item3{
+    grid-area:myContent1;
+}
+.item4{
+    grid-area:myContent2;
+}
+.item5{
+    grid-area:myContent3;
+}
+.item6{
+    grid-area: myFoot;
+}
+.gridcontainer{
+    display:grid;
+    grid-template-areas: 'myHead myHead myHead '
+    ' myBar myContent1 myContent1 '
+    ' myBar myContent1 myContent1 '
+    ' myBar myContent2 myContent3'
+    ' myBar myContent2 myContent3'
+    'myFoot myFoot myFoot';
+    grid-gap:20px;
+    background-color: rgb(46, 44, 44);
+    padding: 20px;
+}
+.item1{
+    background-color: rgb(60, 6, 110);
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+    font-size: xx-large;
+    border: 5px solid black;
+
+}
+.item2{
+    background-color: aqua;
+    text-align: center;
+    color: white;
+    padding: 300px 0;
+    font-size: xx-large;
+    border: 5px solid black;
+
+}
+.item3{
+    background-color:rgb(50, 11, 224);
+    text-align: center;
+    color: white;
+    padding: 150px 0;
+    font-size: xx-large;
+    border: 5px solid black;
+
+}
+.item4{
+    background-color: rgb(50, 11, 224);
+    text-align: center;
+    color: white;
+    padding: 150px 0;
+    font-size: xx-large;
+    border: 5px solid black;
+
+}
+.item5{
+    background-color: rgb(50, 11, 224);
+    color: white;
+    padding: 150px 0;
+    text-align: center;
+    font-size: xx-large;
+    border: 5px solid black;
+
+}
+.item6{
+    background-color:blueviolet;
+    text-align: center;
+    color: white;
+    padding: 70px 0;
+    font-size: xx-large;
+    border: 5px solid black;
+
+}
